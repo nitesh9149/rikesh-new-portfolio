@@ -1,4 +1,4 @@
-import { Inter as FontSans } from "next/font/google"
+import { Montserrat as FontSans } from "next/font/google"
 import localFont from "next/font/local"
 
 import "@/styles/globals.css"

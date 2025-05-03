@@ -46,16 +46,7 @@ interface Tool {
 }
 
 export default async function IndexPage() {
-  let favTools: Tool[] = await getFavTools()
-
-  console.log("Stripe API Key:", process.env.STRIPE_API_KEY);
-
-
-  const posts = allPosts
-    .filter((post) => post.published && post.highlight)
-    .sort((a, b) => {
-      return compareDesc(new Date(a.date), new Date(b.date))
-    })
+  // let favTools: Tool[] = await getFavTools()
 
   return (
     <div>
@@ -64,15 +55,8 @@ export default async function IndexPage() {
       <Header />
 
       <SectionBento />
-      <div
-        id="projects-placeholder"
-        className="relative mx-auto mt-4 grid max-w-5xl grid-cols-1 gap-4 px-8 md:grid-cols-2 lg:grid-cols-4 lg:px-0"
-      >
-        <div className="absolute bottom-0 left-0 right-0 z-10 h-24 w-full bg-gradient-to-t from-[hsl(244,31%,10%)] to-transparent"></div>
-        <div className="col-span-2 h-24 w-full rounded-3xl border-2 border-dashed border-white/10"></div>
-        <div className="col-span-2 h-24 w-full rounded-3xl border-2 border-dashed border-white/10"></div>
-      </div>
-      <SectionListOfProjects posts={posts} />
+
+      <SectionListOfProjects />
 
       <section
         id="info"
@@ -270,7 +254,7 @@ export default async function IndexPage() {
         </div>
       </section>
 
-      <section
+      {/* <section
         id="tools"
         className="flex min-h-[100vh] items-center p-8 md:p-32 "
       >
@@ -313,7 +297,7 @@ export default async function IndexPage() {
             )
           })}
         </div>
-      </section>
+      </section> */}
 
       <SectionFrameworksNStak />
 

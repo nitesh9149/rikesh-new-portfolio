@@ -12,7 +12,7 @@ export default function HeaderImage() {
         height={720}
         placeholder="blur"
         blurDataURL="/images/home/bg-header-blur.jpg"
-        alt="Background - Richard Vinueza Profile"
+        alt="Background - Rikesh Niroula Profile"
         className="absolute inset-0 h-[100dvh] w-full object-cover opacity-25 transition-all duration-1000"
         priority
       />

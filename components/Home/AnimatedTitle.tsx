@@ -116,7 +116,7 @@ export default function AnimatedTitle() {
     <>
       {/* SEO title - hidden visually but available to screen readers and search engines */}
       <h1 className="sr-only">
-        Richard Vinueza - CREATIVE DEVELOPER - SINCE 2014
+        Rikesh Niroula - CREATIVE DESIGNER - SINCE 2017
       </h1>
 
       {/* Visual animated title */}
@@ -144,25 +144,25 @@ export default function AnimatedTitle() {
 
           {/* <HackerText /> */}
           <p className="opacity-80">
-            DEVELOP<span className="text-transparent">E</span>R
+            DESIGN<span className="text-transparent">E</span>R
           </p>
 
           <div className="absolute -bottom-12 -right-12 z-50 animate-float">
             <AnimatedCursor />
             <h2 className="relative z-50 rounded-md bg-gray-50 px-4 py-2 text-center text-xs font-semibold text-black">
-              <span>Richard Vinueza</span>
+              <span>Rikesh Niroula</span>
             </h2>
           </div>
-          <div className="absolute -bottom-14 -left-20">
+          {/* <div className="absolute -bottom-14 -left-20">
             <Cursor />
             <h2 className="relative z-50 -mt-2 mr-2 rounded-md bg-gray-50 px-4 py-2 text-center text-xs font-semibold text-black opacity-50">
               <span>Jhon Doe</span>
             </h2>
-          </div>
+          </div> */}
         </span>
 
         <span className="animate-fade-up-3 opacity-0">SINCE</span>
-        <span className="animate-fade-up-4 text-[#FF512F] opacity-0">2014</span>
+        <span className="animate-fade-up-4 text-[#FF512F] opacity-0">2017</span>
       </h2>
     </>
   )

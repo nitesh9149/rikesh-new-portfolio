@@ -18,9 +18,6 @@ export default function ScrollDownIndicator() {
       animate={{ opacity: 1 }}
       transition={{ delay: 1 }}
     >
-      <div className="rounded-full bg-white px-4 py-2 text-xs text-black/90">
-        <p>v.3.2.42</p>
-      </div>
       <motion.div
         animate={{
           y: [0, -8, 0], // Movimiento hacia arriba y abajo
