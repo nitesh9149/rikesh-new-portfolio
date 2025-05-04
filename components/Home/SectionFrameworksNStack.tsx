@@ -8,36 +8,47 @@ export default function SectionFrameworksNStak() {
       className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24"
     >
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-          Frameworks & Tech
+        <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl">
+          My Design Toolkits 🧠💻
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          These are the tools and frameworks with which I feel more comfortable
-          without limiting myself to them because I have worked with Angular,
-          MySql, Laravel, C++ and many more... My main stack is:
+          From wireframes to final polish—here’s what I use.
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+      <div className="mx-auto grid justify-center gap-4 pt-8 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-            <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
-              <path d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.573 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="55"
+              fill="none"
+              viewBox="0 0 55 55"
+            >
+              <path fill="#fff" fillOpacity="0.01" d="M55 0v55H0V0z"></path>
+              <path
+                fill="#fff"
+                fillRule="evenodd"
+                d="M27.5 27.5a7.639 7.639 0 1 1 15.277 0 7.639 7.639 0 0 1-15.278 0M12.222 42.778a7.64 7.64 0 0 1 7.638-7.639h7.64v7.64a7.639 7.639 0 1 1-15.278 0"
+                clipRule="evenodd"
+              ></path>
+              <path
+                fill="#fff"
+                fillRule="evenodd"
+                d="M27.5 4.584V19.86h7.638a7.639 7.639 0 1 0 0-15.277zM12.222 12.222a7.64 7.64 0 0 0 7.638 7.64h7.64V4.583h-7.64a7.64 7.64 0 0 0-7.638 7.638"
+                clipRule="evenodd"
+              ></path>
+              <path
+                fill="#fff"
+                fillRule="evenodd"
+                d="M12.222 27.5a7.64 7.64 0 0 0 7.638 7.64h7.64V19.86h-7.64a7.64 7.64 0 0 0-7.638 7.639"
+                clipRule="evenodd"
+              ></path>
             </svg>
             <div className="space-y-2">
-              <h3 className="font-bold">Next.js</h3>
+              <h3 className="font-bold">Figma</h3>
               <p className="text-sm text-muted-foreground">
-                App dir, Routing, Layouts, Loading UI and API routes.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-            <AWSIcon />
-            <div className="space-y-2">
-              <h3 className="font-bold">Servers and Deploy</h3>
-              <p className="text-sm text-muted-foreground">
-                AWS, GCP, Vercel, RailWay
+                Build wireframes, prototypes, and design systems.
               </p>
             </div>
           </div>
@@ -45,38 +56,75 @@ export default function SectionFrameworksNStak() {
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
             <svg
-              version="1.0"
-              className="h-12 w-12 fill-current"
-              viewBox="0 0 24 24"
-              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="55"
+              fill="none"
+              viewBox="0 0 55 55"
             >
-              <g clipPath="url(#clip0_121_3668)">
-                <path d="M7.14132 0.190091L6.94971 0.380183L6.97526 4.09964C7.0008 8.19928 6.99442 8.10424 7.44152 9.4729C8.45709 12.5587 11.1333 15.0489 14.3269 15.8726C15.2148 16.1008 15.8407 16.1641 17.5078 16.2085L19.0279 16.2528L19.2259 16.4556C19.392 16.6203 19.4367 16.7154 19.4559 16.9942C19.4878 17.4061 19.3281 17.7039 18.996 17.8433C18.6191 17.9953 15.6619 17.951 14.8954 17.7736C14.7996 17.7546 14.7038 17.7862 14.6144 17.8749C14.4866 18.0017 14.4802 18.0397 14.5058 20.1054C14.5313 22.1393 14.5377 22.2217 14.6846 22.5892C14.889 23.1088 15.4128 23.6284 15.9174 23.8185C16.6647 24.0909 18.3892 24.0529 19.5134 23.7298C21.3976 23.1848 22.9497 21.7401 23.6267 19.9089C24.0163 18.8507 24.0163 18.7937 23.9908 13.5789C23.9716 8.94064 23.9652 8.82658 23.8247 8.20562C23.3393 6.05125 22.3557 4.29607 20.81 2.81969C19.2515 1.33698 17.3609 0.418201 15.2275 0.0950456C14.7166 0.019009 13.8607 -1.99871e-07 10.9609 -1.99871e-07H7.32655L7.14132 0.190091ZM18.5872 10.1446C19.1301 10.3093 19.5325 10.8416 19.5389 11.4118C19.5389 11.811 19.2834 12.2926 18.9513 12.5207C18.715 12.6854 18.6319 12.7045 18.1976 12.7045C17.7633 12.7045 17.6802 12.6854 17.4439 12.5207C16.9138 12.1595 16.7158 11.4182 16.9904 10.8542C17.2842 10.2523 17.9485 9.9608 18.5872 10.1446Z" />
-                <path d="M1.29049 1.30541C0.926416 1.43847 0.447375 1.87568 0.217436 2.29389L0.0258192 2.62971L0.00665759 8.64928C-0.012504 15.1504 -0.012504 15.2328 0.326018 16.2846C1.05416 18.5657 2.87452 20.4033 5.15475 21.1636C6.132 21.4868 6.65575 21.5438 8.68688 21.5438C10.9032 21.5438 11.0182 21.5185 11.6633 20.8785C12.2446 20.3019 12.3212 20.0041 12.3212 18.382C12.3212 17.6976 12.2957 17.1084 12.2701 17.0703C12.2446 17.0323 11.8805 16.8232 11.4589 16.6078C11.0374 16.3923 10.4178 16.0248 10.0857 15.7904C9.30005 15.2455 7.88209 13.8388 7.32002 13.0531C6.56633 11.9886 5.85096 10.4425 5.52521 9.15619C5.2314 8.00931 5.21224 7.7305 5.17391 4.65736L5.13559 1.67926L4.8801 1.59688C3.89008 1.26106 1.84617 1.09631 1.29049 1.30541Z" />
-              </g>
-              <defs>
-                <clipPath id="clip0_121_3668">
-                  <rect width="24" height="24" fill="white" />
-                </clipPath>
-              </defs>
+              <path fill="#fff" fillOpacity="0.01" d="M55 0v55H0V0z"></path>
+              <path
+                fill="#fff"
+                d="M43.407 12.66a37.3 37.3 0 0 0-9.455-2.972 28 28 0 0 0-1.211 2.515 34.7 34.7 0 0 0-10.479 0 27 27 0 0 0-1.225-2.515 37.2 37.2 0 0 0-9.462 2.978C5.59 21.71 3.969 30.527 4.78 39.219c3.969 2.964 7.815 4.764 11.596 5.942.94-1.292 1.77-2.66 2.484-4.09a24.4 24.4 0 0 1-3.911-1.903q.49-.365.959-.759c7.54 3.527 15.734 3.527 23.184 0q.47.392.959.759a24.4 24.4 0 0 1-3.918 1.907 28.7 28.7 0 0 0 2.483 4.09c3.785-1.178 7.635-2.979 11.603-5.946.952-10.076-1.625-18.813-6.812-26.559m-23.52 21.213c-2.264 0-4.12-2.114-4.12-4.687s1.817-4.69 4.12-4.69 4.16 2.113 4.12 4.69c.004 2.573-1.817 4.687-4.12 4.687m15.226 0c-2.264 0-4.12-2.114-4.12-4.687s1.816-4.69 4.12-4.69c2.303 0 4.16 2.113 4.12 4.69 0 2.573-1.817 4.687-4.12 4.687"
+              ></path>
             </svg>
             <div className="space-y-2">
-              <h3 className="font-bold">Database</h3>
+              <h3 className="font-bold">Discord</h3>
               <p className="text-sm text-muted-foreground">
-                ORM Prisma and Postgresql
+                Collaborating with teams through real-time chat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="55"
+              fill="none"
+              viewBox="0 0 55 55"
+            >
+              <path fill="#fff" fillOpacity="0.01" d="M55 0v55H0V0z"></path>
+              <path
+                fill="#fff"
+                d="M33.537 5.828 9.492 7.604c-1.94.168-2.615 1.435-2.615 2.955v26.36c0 1.183.42 2.195 1.434 3.548l5.652 7.35c.929 1.183 1.773 1.437 3.546 1.353l27.923-1.69c2.36-.169 3.037-1.268 3.037-3.127V14.698c0-.96-.38-1.237-1.496-2.056l-.193-.14-7.674-5.407c-1.857-1.35-2.616-1.52-5.57-1.267M18.14 14.213c-2.28.154-2.797.188-4.092-.865l-3.293-2.619c-.334-.338-.166-.762.677-.846l23.115-1.688c1.94-.17 2.952.507 3.71 1.098l3.965 2.872c.17.085.591.59.084.59l-23.87 1.438zM15.483 44.1V18.925c0-1.1.337-1.606 1.348-1.692l27.417-1.605c.93-.084 1.35.507 1.35 1.605V42.24c0 1.1-.17 2.03-1.687 2.113l-26.237 1.521c-1.518.084-2.191-.421-2.191-1.774m25.899-23.825c.168.76 0 1.52-.76 1.608l-1.265.25V40.72c-1.098.591-2.11.929-2.954.929-1.35 0-1.687-.423-2.698-1.69l-8.27-13.01v12.588l2.616.592s0 1.521-2.11 1.521l-5.819.338c-.17-.34 0-1.184.59-1.352l1.52-.421V23.572l-2.11-.171c-.17-.76.252-1.859 1.434-1.944l6.243-.42 8.604 13.178V22.556l-2.193-.252c-.17-.931.506-1.607 1.349-1.69z"
+              ></path>
+            </svg>
+            <div className="space-y-2">
+              <h3 className="font-bold">Notion</h3>
+              <p className="text-sm text-muted-foreground">
+                Organizing projects, tasks, and design briefs.
               </p>
             </div>
           </div>
         </div>
         <div className="z-20overflow-hidden  relative z-20 rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-            <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
-              <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="54"
+              fill="none"
+              viewBox="0 0 56 54"
+            >
+              <g fill="#fff" clipPath="url(#clip0_0_377)">
+                <path
+                  fillOpacity="0.05"
+                  d="M9.751 0h35.563a9.74 9.74 0 0 1 9.751 9.751v34.186a9.74 9.74 0 0 1-9.751 9.752H9.751A9.74 9.74 0 0 1 0 43.936V9.751A9.74 9.74 0 0 1 9.751 0"
+                ></path>
+                <path d="M12.39 37.651v-23.61c0-.16.068-.252.229-.252.39 0 .757 0 1.285-.022.528-.023 1.124-.023 1.744-.046s1.284-.023 1.996-.046c.71-.023 1.4-.023 2.088-.023 1.881 0 3.441.23 4.726.711a8.2 8.2 0 0 1 3.075 1.881 7.3 7.3 0 0 1 1.674 2.616c.348.956.526 1.966.528 2.983q0 2.96-1.377 4.887a7.86 7.86 0 0 1-3.693 2.799c-1.56.574-3.281.78-5.163.78-.55 0-.918 0-1.147-.023-.23-.023-.55-.023-.987-.023v7.365a.285.285 0 0 1-.252.321h-4.451c-.184 0-.275-.091-.275-.298m5.001-19.433v7.709c.322.023.62.046.895.046h1.216a8.6 8.6 0 0 0 2.639-.413 3.95 3.95 0 0 0 1.881-1.216c.482-.574.711-1.354.711-2.364a3.8 3.8 0 0 0-.527-2.041A3.33 3.33 0 0 0 22.6 18.63a6.7 6.7 0 0 0-2.708-.46c-.596 0-1.124 0-1.56.024a5.3 5.3 0 0 0-.94.023M44.052 24.527a8.1 8.1 0 0 0-2.203-.78 12 12 0 0 0-2.57-.298 4.6 4.6 0 0 0-1.376.16c-.286.06-.54.223-.711.46-.116.185-.18.4-.184.619.011.218.091.427.23.596.217.255.482.466.78.62.528.275 1.078.527 1.629.757 1.24.417 2.425.98 3.533 1.675a5.34 5.34 0 0 1 1.813 1.904c.368.732.55 1.544.527 2.363a5.34 5.34 0 0 1-.894 3.052 5.75 5.75 0 0 1-2.57 2.042c-1.124.482-2.5.734-4.153.734a16 16 0 0 1-3.12-.298 9.3 9.3 0 0 1-2.34-.734.46.46 0 0 1-.253-.436V32.97a.25.25 0 0 1 .092-.206.175.175 0 0 1 .206.023c.884.52 1.844.9 2.846 1.124.883.23 1.793.346 2.707.344.872 0 1.491-.114 1.904-.32a1.07 1.07 0 0 0 .62-.965c0-.32-.184-.62-.551-.917-.367-.299-1.124-.643-2.248-1.079a14 14 0 0 1-3.258-1.652 5.94 5.94 0 0 1-1.744-1.95 4.9 4.9 0 0 1-.528-2.34c.003-.98.273-1.939.78-2.776a5.66 5.66 0 0 1 2.41-2.111c1.078-.55 2.431-.803 4.06-.803.952 0 1.903.07 2.845.206.678.092 1.34.27 1.973.528.101.036.184.11.23.206q.04.136.046.276v3.74a.28.28 0 0 1-.115.23.6.6 0 0 1-.413 0"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_0_377">
+                  <path fill="#fff" d="M0 0h55.065v53.688H0z"></path>
+                </clipPath>
+              </defs>
             </svg>
             <div className="space-y-2">
-              <h3 className="font-bold">Components</h3>
+              <h3 className="font-bold">Photoshop</h3>
               <p className="text-sm text-muted-foreground">
-                UI components built using Radix UI and styled with Tailwind CSS.
+                Editing images and creating visual assets.
               </p>
             </div>
           </div>
@@ -84,31 +132,56 @@ export default function SectionFrameworksNStak() {
         <div className="relative z-20  overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
             <svg
-              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              width="53"
+              height="51"
               fill="none"
-              stroke="currentColor"
-              strokeWidth="1"
-              className="h-12 w-12 fill-current"
+              viewBox="0 0 53 51"
             >
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <g fill="#fff" clipPath="url(#clip0_0_376)">
+                <path
+                  fillOpacity="0.05"
+                  d="M9.26 0h33.773a9.25 9.25 0 0 1 9.26 9.26v32.466a9.25 9.25 0 0 1-9.26 9.26H9.26A9.25 9.25 0 0 1 0 41.726V9.26A9.25 9.25 0 0 1 9.26 0"
+                ></path>
+                <path d="M25.34 30.592h-8.105l-1.656 5.12a.38.38 0 0 1-.414.305h-4.096c-.24 0-.305-.13-.24-.392l7.016-20.198c.065-.218.13-.458.218-.72q.132-.7.13-1.416a.22.22 0 0 1 .175-.24h5.643c.175 0 .262.066.284.175l7.953 22.443c.065.24 0 .348-.218.348h-4.554a.33.33 0 0 1-.349-.24zM18.5 26.169h5.534a31 31 0 0 0-.501-1.57c-.196-.566-.392-1.22-.588-1.873-.197-.654-.414-1.33-.632-2.005a47 47 0 0 1-.589-1.939c-.174-.632-.326-1.176-.479-1.7h-.043q-.295 1.427-.741 2.811c-.327 1.046-.654 2.136-1.003 3.225a43 43 0 0 1-.958 3.05M36.998 16.778a2.7 2.7 0 0 1-1.94-.763 2.83 2.83 0 0 1-.74-2.005 2.57 2.57 0 0 1 .784-1.939 2.8 2.8 0 0 1 1.94-.762c.849 0 1.503.261 1.982.762.483.529.74 1.224.72 1.94a2.76 2.76 0 0 1-.764 2.004 2.56 2.56 0 0 1-1.982.763m-2.44 18.913V18.913c0-.218.087-.305.283-.305h4.314c.196 0 .283.109.283.305v16.778c0 .24-.087.348-.283.348h-4.27a.305.305 0 0 1-.328-.348"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_0_376">
+                  <path fill="#fff" d="M0 0h52.294v50.986H0z"></path>
+                </clipPath>
+              </defs>
             </svg>
             <div className="space-y-2">
-              <h3 className="font-bold">Authentication</h3>
+              <h3 className="font-bold">Illustrator</h3>
               <p className="text-sm text-muted-foreground">
-                Authentication using NextAuth.js and middlewares.
+                Designing scalable illustrations for interfaces.
               </p>
             </div>
           </div>
         </div>
         <div className="relative z-20  overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-            <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
-              <path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.594-7.305h.003z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="47"
+              fill="none"
+              viewBox="0 0 46 47"
+            >
+              <path
+                fill="#fff"
+                fillOpacity="0.05"
+                d="M34.361 0H11.639C5.211 0 0 5.223 0 11.666v22.776c0 6.443 5.211 11.666 11.639 11.666h22.722C40.789 46.108 46 40.885 46 34.442V11.666C46 5.223 40.789 0 34.361 0"
+              ></path>
+              <path
+                fill="#fff"
+                d="M34.96 10.327c-7.917 0-10.852 5.667-13.211 10.22l-1.541 2.912c-2.499 4.828-4.365 7.762-9.176 7.762a2.27 2.27 0 0 0-2.1 1.408 2.28 2.28 0 0 0 .493 2.483 2.28 2.28 0 0 0 1.607.668c7.922 0 10.856-5.667 13.215-10.22l1.538-2.912c2.502-4.828 4.369-7.762 9.176-7.762a2.27 2.27 0 0 0 1.61-.667 2.28 2.28 0 0 0-.001-3.225 2.28 2.28 0 0 0-1.61-.667"
+              ></path>
             </svg>
             <div className="space-y-2">
-              <h3 className="font-bold">Subscriptions</h3>
+              <h3 className="font-bold">LottieFiles</h3>
               <p className="text-sm text-muted-foreground">
-                Free and paid subscriptions using Stripe.
+                Integrating lightweight animations into designs.
               </p>
             </div>
           </div>

@@ -23,7 +23,7 @@ export default function SectionInspiration() {
                 url: "https://www.youtube.com/c/midudev",
               },
               lang: "es",
-              image: "/images/inspiration/midu.jpg",
+              image: "/images/inspiration/image1.png",
             },
             {
               name: "serudda",
@@ -32,7 +32,7 @@ export default function SectionInspiration() {
                 name: "YouTube | Twitch",
                 url: "https://www.youtube.com/@serudda",
               },
-              image: "/images/inspiration/serudda.jpg",
+              image: "/images/inspiration/image2.png",
             },
             {
               name: "Silicon Valley Girl",
@@ -41,7 +41,7 @@ export default function SectionInspiration() {
                 name: "YouTube",
                 url: "https://www.youtube.com/@SiliconValleyGirl",
               },
-              image: "/images/inspiration/svg.jpg",
+              image: "/images/inspiration/image3.png",
             },
             {
               name: "levelsio",
@@ -50,7 +50,7 @@ export default function SectionInspiration() {
                 name: "Twitter",
                 url: "https://twitter.com/levelsio",
               },
-              image: "/images/inspiration/levelsio.jpg",
+              image: "/images/inspiration/image4.png",
             },
             // {
             //   name: "Will Paterson",
@@ -64,7 +64,7 @@ export default function SectionInspiration() {
                 name: "Twitter",
                 url: "https://twitter.com/oguzyagizkara",
               },
-              image: "/images/inspiration/ogu.jpg",
+              image: "/images/inspiration/image5.png",
             },
             {
               name: "Diego Fernandes", // Rocketseat
@@ -73,7 +73,7 @@ export default function SectionInspiration() {
                 name: "Youtube",
                 url: "https://www.youtube.com/@rocketseat",
               },
-              image: "/images/inspiration/diego.jpg",
+              image: "/images/inspiration/image6.png",
             },
           ].map((item, index) => {
             return (
