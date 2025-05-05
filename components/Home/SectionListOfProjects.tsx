@@ -1,15 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const getColorOfStatus = {
-  building: "bg-amber-500 text-amber-800",
-  live: "bg-green-500 text-green-800",
-  dead: "bg-red-500 text-red-800",
-  "open source": "bg-gray-500 text-gray-800",
-  proposal: "bg-blue-500 text-blue-800",
-  mvp: "border bg-white/10",
-}
-
 export default function SectionListOfProjects() {
   return (
     <section
