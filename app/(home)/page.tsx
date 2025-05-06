@@ -37,7 +37,7 @@ export default async function IndexPage() {
 
       <SectionListOfProjects />
 
-      <section className="mx-auto grid max-w-5xl grid-cols-4 gap-6 pt-32">
+      <section className="mx-auto grid max-w-5xl  grid-cols-2 gap-6 px-4 pt-32 sm:grid-cols-4">
         <div className="flex h-[147px] flex-col justify-center gap-4 rounded-[15px] bg-[#232230] p-6">
           <h2 className="text-3xl font-bold text-white">5+</h2>
           <p className="text-[#B6B5BA]">Years Experienced</p>
@@ -61,7 +61,7 @@ export default async function IndexPage() {
         className="relative z-40 flex flex-col items-center justify-center space-y-6 px-4 pb-8 pt-6 text-center md:pt-10 lg:pt-32"
       >
         <div className="relative mb-10 flex w-full max-w-3xl items-center gap-4 overflow-hidden rounded-xl bg-white/5 px-8 py-6">
-          <div className="relative">
+          <div className="relative shrink-0">
             <Image
               src={"/images/rikesh.png"}
               alt="Rikesh Niroula"
@@ -139,7 +139,7 @@ export default async function IndexPage() {
       <SectionFrameworksNStak />
 
       <SectionInspiration />
-      <section className="mx-auto grid max-w-5xl grid-cols-2 py-32">
+      <section className="mx-auto grid max-w-5xl grid-cols-1 gap-x-4 gap-y-8 px-4 py-32 sm:grid-cols-2">
         <div>
           <h2 className="mb-4 text-4xl font-light">
             Let’s create something{" "}

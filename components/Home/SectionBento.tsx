@@ -16,7 +16,7 @@ export default function SectionBento() {
         target="_blank"
         rel="noreferrer noopener"
         href="https://drive.google.com/file/d/1-6_qXA48htfG1dpM7xDRBNnVHXKSGRi_mw3PMFu7Szc/view"
-        className="group relative h-full w-full cursor-pointer overflow-hidden rounded-3xl border-4 border-red-500"
+        className="group relative h-[400px] w-full cursor-pointer overflow-hidden rounded-3xl border-4 border-red-500 sm:h-full"
       >
         <Image
           alt=""
@@ -126,10 +126,10 @@ export default function SectionBento() {
             LINKS
           </p>
           <p className="text-3xl ">Social Media</p>
-          <div className="flex gap-8 pt-8">
+          <div className="flex flex-wrap justify-center gap-8 pt-8 sm:justify-start">
             <a
               href="#"
-              className="-ml-[3.5rem] flex items-center rounded-[16px] border-2 border-[#FFFFFF33] bg-[FFFFFF0D] px-8 py-6 text-2xl"
+              className=" ml-0 flex items-center rounded-[16px] border-2 border-[#FFFFFF33] bg-[FFFFFF0D] px-8 py-6 text-2xl sm:-ml-[3.5rem]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +221,7 @@ export default function SectionBento() {
               </svg>
             </a>
           </div>
-          <div className="flex gap-8 pt-8">
+          <div className="flex flex-wrap justify-center gap-8 pt-8 sm:justify-start">
             <a
               href="#"
               className="flex items-center rounded-[16px] border-2 border-white bg-[FFFFFF0D] px-8 py-6 text-2xl"
