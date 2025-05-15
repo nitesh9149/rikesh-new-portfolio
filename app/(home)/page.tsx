@@ -1,6 +1,5 @@
 import Image from "next/image"
-import { LaptopIcon, MapPinIcon } from "lucide-react"
-import { Barlow } from "next/font/google"
+import { LaptopIcon, LinkIcon, MapPinIcon } from "lucide-react"
 
 import SectionFrameworksNStak from "@/components/Home/SectionFrameworksNStack"
 import SectionListOfProjects from "@/components/Home/SectionListOfProjects"
@@ -10,23 +9,11 @@ import SectionInspiration from "@/components/Home/SectionInspiration"
 
 import { Signature } from "@/components/signature"
 import { ScrollToTopButton } from "@/components/SrollTopButton"
-import { cn } from "@/lib/utils"
 
 import Header from "@/components/Home/Header"
-
-// If loading a variable font, you don't need to specify the font weight
-const barlow = Barlow({ subsets: ["latin"], weight: ["600"] })
-
-interface Tool {
-  title?: string
-  description?: string
-  url?: string
-  icon?: string
-}
+import Link from "next/link"
 
 export default async function IndexPage() {
-  // let favTools: Tool[] = await getFavTools()
-
   return (
     <div>
       <ScrollToTopButton />
@@ -105,14 +92,14 @@ export default async function IndexPage() {
           </div>
           <Image
             src={"/images/travel.png"}
-            alt="Richard B. Vinueza"
+            alt="Rikesh Niroula"
             className="insert-y-0 absolute right-0"
             width={240}
             height={96}
           />
         </div>
 
-        <h3 className={barlow.className + " font-heading text-4xl"}>
+        <h3 className="font-heading text-4xl">
           {"“ Designing for People, Not Just Screens ”"}
           {/* SOFTWARE ENGINEER */}
         </h3>
@@ -133,6 +120,51 @@ export default async function IndexPage() {
 
         <div className="mb-12 flex w-full items-center justify-center pt-12 ">
           <div className=" w-full border-b-2 border-dashed"></div>
+        </div>
+      </section>
+
+      <section
+        id="tools"
+        className="flex min-h-[100vh] items-center p-8 md:p-32 "
+      >
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          {favTools?.map((item, index) => {
+            return (
+              <div
+                key={"ite-" + index}
+                className={
+                  "flex w-fit items-center justify-between gap-4 rounded-lg  bg-slate-800 p-4 " +
+                  (!item.title ? "opacity-30" : "")
+                }
+              >
+                <div className="flex items-center gap-4">
+                  <div
+                    className={
+                      "flex h-16 w-16 items-center justify-center overflow-hidden rounded-xl bg-slate-900 "
+                    }
+                  >
+                    <img src={item.icon} />
+                  </div>
+                  <div className="grid max-w-[132px] flex-1">
+                    <p className="font-bold">{item.title}</p>
+                    <label
+                      title={item.description}
+                      className="truncate text-white/50"
+                    >
+                      {item.description}
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  {item.url && (
+                    <Link href={item.url} target="_blank">
+                      <LinkIcon className="text-white/70" />
+                    </Link>
+                  )}
+                </div>
+              </div>
+            )
+          })}
         </div>
       </section>
 
@@ -225,3 +257,113 @@ const FlagNp = () => {
     </svg>
   )
 }
+const favTools = [
+  {
+    icon: "/images/logos/railway.png",
+    title: "Railway",
+    description: "Simplifies your Infrastructure",
+    url: "https://railway.com/",
+  },
+  {
+    icon: "/images/logos/directus.png",
+    title: "Directus",
+    description: "Headless CMS",
+    url: "",
+  },
+  {
+    icon: "/images/logos/figma.png",
+    title: "Figma",
+    description: "Design",
+    url: "https://www.figma.com/",
+  },
+  {
+    icon: "/images/logos/brandfetch.png",
+    title: "Brandfetch",
+    description: "Brand Logos",
+    url: "https://brandfetch.com/",
+  },
+  {
+    icon: "/images/logos/svgl.png",
+    title: "svgl",
+    description: "Good SVG Icons",
+    url: "https://svgl.app/",
+  },
+  {
+    icon: "/images/logos/gsap.png",
+    title: "gsap",
+    description: "Animation",
+    url: "https://gsap.com/",
+  },
+  {
+    icon: "/images/logos/aws.png",
+    title: "AWS",
+    description: "EC2, Lamdas, ECS, S3",
+    url: "",
+  },
+  {
+    icon: "/images/logos/strapi.png",
+    title: "Strapi",
+    description: "Headless CMS",
+    url: "",
+  },
+  {
+    icon: "/images/logos/spline.png",
+    title: "Spline",
+    description: "3D Design",
+    url: "https://spline.design/",
+  },
+  {
+    icon: "/images/logos/medusa.png",
+    title: "Medusa",
+    description: "Open Source E-Commerce",
+    url: "https://medusajs.com/",
+  },
+  {
+    icon: "/images/logos/framer-motion.png",
+    title: "Framer Motion",
+    description: "Animations",
+    url: "",
+  },
+  {
+    icon: "/images/logos/resend.png",
+    title: "Resend",
+    description: "Send Emails",
+    url: "",
+  },
+  {
+    icon: "/images/logos/open-ai.png",
+    title: "Open AI",
+    description: "AI",
+    url: "https://openai.com/",
+  },
+  {
+    icon: "/images/logos/n8n.png",
+    title: "N8N",
+    description: "Automatization",
+    url: "https://n8n.io/",
+  },
+  {
+    icon: "/images/logos/pinterest.png",
+    title: "Pinterest",
+    description: "Inspiration",
+    url: "https://www.pinterest.com/",
+  },
+  {
+    icon: "/images/logos/refero.png",
+    title: "Refero",
+    description: "Designs from the best products",
+    url: "https://refero.design/",
+  },
+  {
+    icon: "/images/logos/make-pill.png",
+    title: "Makepill",
+    description: "Inspiration",
+    url: "https://makepill.com/",
+  },
+  {
+    icon: "/images/logos/stripe.png",
+    title: "Stripe",
+    description: "Payments",
+    url: "https://stripe.com/",
+  },
+]
