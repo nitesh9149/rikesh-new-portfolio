@@ -15,7 +15,7 @@ export default function SectionBento() {
       <a
         target="_blank"
         rel="noreferrer noopener"
-        href="https://drive.google.com/file/d/1-6_qXA48htfG1dpM7xDRBNnVHXKSGRi_mw3PMFu7Szc/view"
+        href="https://docs.google.com/document/d/1lF-1v2qoNtvIAk7QoCtj6Xdaj5pLsJX-rD__R5ZPjHU/edit?usp=sharing"
         className="group relative h-96 w-full cursor-pointer overflow-hidden rounded-3xl border-4 border-red-500"
       >
         <Image
@@ -142,7 +142,7 @@ export default function SectionBento() {
           <div className="flex w-full flex-wrap items-center justify-center gap-4 rounded-3xl bg-white px-4 py-5 text-slate-500/40 shadow-lg">
             <a
               title="Figma"
-              href="#"
+              href="https://www.figma.com/@rikeshniroula"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -165,7 +165,7 @@ export default function SectionBento() {
             </a>
             <a
               title="Twitter"
-              href="#"
+              href="https://x.com/rjnscouser"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -189,7 +189,7 @@ export default function SectionBento() {
             </a>
             <a
               title="Github"
-              href="#"
+              href="https://github.com/rikeshn77"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -213,7 +213,7 @@ export default function SectionBento() {
 
             <a
               title="Linkedin"
-              href="#"
+              href="https://www.linkedin.com/in/rjnscouser/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -222,7 +222,7 @@ export default function SectionBento() {
 
             <a
               title="Dribbble"
-              href="#"
+              href="https://dribbble.com/rjnscouser"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -249,7 +249,7 @@ export default function SectionBento() {
           <Link
             target="_blank"
             rel="noreferrer"
-            href="#"
+            href="https://www.figma.com/@rikeshniroula"
             className="group relative flex items-center overflow-hidden rounded-3xl border-2 border-dashed border-[#FF512F]/50  p-6 font-bold "
           >
             <div>
